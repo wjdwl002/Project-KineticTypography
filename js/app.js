@@ -30,7 +30,7 @@ class App {
       powerPreference: "high-performance",
       backgroundColor: 0x000000,
     });
-    document.body.appendChild(this.renderer.view);
+    document.querySelector("#canvas").appendChild(this.renderer.view);
 
     this.stage = new PIXI.Container();
 
